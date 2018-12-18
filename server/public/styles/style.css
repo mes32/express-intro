@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #ecf7ff;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #003153;
+    color: #ecf7ff;
+    height: 100%;
+}
+
+main {
+    margin: 50px auto;
+    width: 768px;
+
+    background-color: #ecf7ff;
+    color: #222222;
+}
+
+footer {
+    background-color: #003153;
+    color: #ecf7ff;
+}
+
+h1, h2 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 3.2rem 0;
+    text-align: center;
+}
+
+#monthly-expenses {
+    /* margin-right: 30px; */
+    text-align: right;
+}
+
+input {
+  width: 115px;
+  padding: 4px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #003153;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+button {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    outline: none;
+}
+
+#submit-button {
+    margin-top: 0.2rem;
+    padding: 0.2rem 10px;
+
+    border: 2px solid #003153;
+    border-radius: 8px;
+
+    background-color: #003153;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#submit-button:active {
+    background-color: #003b64;
+}
+
+.delete-button {
+    padding: 0.2rem 8px;
+
+    border: 2px solid #990000;
+    border-radius: 8px;
+
+    background-color: #990000;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.delete-button:active {
+    background-color: #b30000;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #003153;
+
+    font-size: 0.8rem;
+}
+
+th, td {
+    padding: 0.6rem 10px;
+}
+
+th {
+    background-color: #b9e2ff;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+    /* text-align: left; */
+}
+
+tr:nth-child(odd) {
+    background-color: #ecf7ff;
+}
+
+tr:nth-child(even) {
+    background-color: #dbf0ff;
+}
+
+tfoot td {
+    background-color: #b9e2ff;
+}
+
+#inputs-flex-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.require-txt {
+    color: red;
+    /* visibility: hidden; */
+}
+
+p.require-txt {
+    padding: 0;
+    margin: 0.2rem 0 0 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.require-border {
+    margin-right: 3px;
+    padding: 2px;
+    
+    border: 1px solid red;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red;
+    /* visibility: hidden; */
+}
+
+.require-border * {
+    visibility: visible;
+}

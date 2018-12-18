@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/jquery-3.1.1.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/client.test.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Salary Calculator</h1>
+    </header>
+    <main>
+        <h2>Add Employee</h2>
+        <div id="inputs-flex-box">
+            <div class="require-container">
+                <div class="require-first-name require-border">
+                    <input type="text" id="first-name" placeholder="First Name" />
+                </div>
+                <p class="require-first-name require-txt">First Name</p>
+            </div>
+            <div class="require-container">
+                <div class="require-last-name require-border">
+                    <input type="text" id="last-name" placeholder="Last Name" />
+                </div>
+                <p class="require-last-name require-txt">Last Name</p>
+            </div>
+            <div class="require-container">
+                <div class="require-employee-id require-border">
+                    <input type="text" id="employee-id" placeholder="ID" />
+                </div>
+                <p class="require-employee-id require-txt">Employee ID</p>
+            </div>
+            <div class="require-container">
+                <div class="require-employee-title require-border">
+                    <input type="text" id="employee-title" placeholder="Title" />
+                </div>
+                <p class="require-employee-title require-txt">Employee Title</p>
+            </div>
+            <div class="require-container">
+                <div class="require-annual-salary require-border">
+                    <input type="number" id="annual-salary" placeholder="Annual Salary" />
+                </div>
+                <p class="require-annual-salary require-txt">Annual Salary</p>
+            </div>
+            <button id="submit-button">Submit</button>
+        </div>
+        <h4 id="required-inputs" class="require-txt">* Required Inputs</h4>
+        <h2>Employees:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="employee-list-tbody">
+                <!-- Employees will be appended here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2 id="monthly-expenses">Total Monthly: $0</h2>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

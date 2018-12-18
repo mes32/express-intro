@@ -1,0 +1,23 @@
+{
+  "name": "express-intro",
+  "version": "1.0.0",
+  "description": "Building a simple node.js server using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mes32/express-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mes32/express-intro/issues"
+  },
+  "homepage": "https://github.com/mes32/express-intro#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
