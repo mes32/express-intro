@@ -145,7 +145,7 @@ tfoot td {
 
 .require-txt {
     color: red;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 p.require-txt {
@@ -162,7 +162,7 @@ p.require-txt {
     border: 1px solid red;
     border-radius: 8px;
     box-shadow: 0 0 10px red;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .require-border * {
